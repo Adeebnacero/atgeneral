@@ -17,8 +17,8 @@ if (menuToggle && navLinks) {
   });
 }
 
-// Contact form -> FormSubmit.co (delivers to adeebnacero@gmail.com, no backend needed)
-var CONTACT_EMAIL = 'adeebnacero@gmail.com';
+// Contact form -> FormSubmit.co (delivers to atgeneralinfo@gmail.com, no backend needed)
+var CONTACT_EMAIL = 'atgeneralinfo@gmail.com';
 var form = document.getElementById('contactForm');
 var successBox = document.getElementById('formSuccess');
 var errorBox = document.getElementById('formError');
