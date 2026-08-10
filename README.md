@@ -1,6 +1,7 @@
-# atgeneral marketing site
+# ATGeneral marketing site
 
-Static site for atgeneral — no build step, plain HTML/CSS/JS.
+Static site — no build step, plain HTML/CSS/JS. Design direction: dark,
+terminal/systems ("Prototype B").
 
 ## Files
 
@@ -14,16 +15,16 @@ Static site for atgeneral — no build step, plain HTML/CSS/JS.
 ## Contact form
 
 The form posts to [FormSubmit](https://formsubmit.co), a free forwarding
-service — no backend or API key needed. It's already set to deliver to
-**adeebnacero@gmail.com**.
+service — no backend or API key needed. It delivers to
+**atgeneralinfo@gmail.com**.
 
 **One-time step:** the first time the form is submitted after going live,
-FormSubmit sends a confirmation email to adeebnacero@gmail.com — click the
+FormSubmit sends a confirmation email to atgeneralinfo@gmail.com — click the
 activation link in it once, and every submission after that lands directly
 in the inbox. Until that link is clicked, the form will error out.
 
-If you'd rather change the destination address, edit `CONTACT_EMAIL` near
-the top of `script.js`.
+To change the destination address, edit `CONTACT_EMAIL` near the top of
+`script.js`, and the two `atgeneralinfo@gmail.com` mentions in `index.html`.
 
 ## Deploy to Vercel
 
