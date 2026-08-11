@@ -3,266 +3,148 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>atgeneral — Clubhouse &amp; Sideline, software for amateur sports clubs</title>
-<meta name="description" content="atgeneral builds Clubhouse and Sideline: committee tools for the people who run amateur sports clubs, and a portal for the players and parents who show up every week." />
-
-<!-- Open Graph -->
-<meta property="og:title" content="atgeneral — software for amateur sports clubs" />
-<meta property="og:description" content="Clubhouse for the committee. Sideline for the players and parents. One shared roster underneath." />
+<title>ATGeneral — Digital products built around how you work</title>
+<meta name="description" content="ATGeneral builds websites, apps and management systems around how your business actually works." />
+<meta property="og:title" content="ATGeneral — Digital products built around how you work" />
+<meta property="og:description" content="Websites, apps and management systems built around how your business actually works." />
 <meta property="og:type" content="website" />
-
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 <link rel="canonical" href="https://atgeneral.co" />
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Karla:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
 <header class="nav">
   <div class="wrap nav-inner">
-    <a href="#top" class="logo">atgeneral<span class="dot">.</span></a>
-    <nav class="links" id="navLinks">
-      <a href="#products">Product</a>
-      <a href="#clubhouse">Clubhouse</a>
-      <a href="#sideline">Sideline</a>
-      <a href="#contact" class="nav-cta">Get in touch</a>
+    <a href="#top" class="logo" aria-label="ATGeneral home">ATGeneral<span>›</span></a>
+    <nav class="links" id="navLinks" aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#contact" class="nav-cta">Let's talk</a>
     </nav>
     <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
   </div>
 </header>
 
 <main id="top">
-
-  <!-- HERO -->
   <section class="hero">
     <div class="wrap hero-grid">
-      <div>
-        <p class="eyebrow">Club software, built by people who run clubs</p>
-        <h1 class="display">Run the club.<br>Not the <span>spreadsheet.</span></h1>
-        <p class="lead">atgeneral makes two products that share one roster: <strong>Clubhouse</strong>, for the committee running things behind the scenes, and <strong>Sideline</strong>, for the players and parents who just want to know what's on and pay their subs.</p>
+      <div class="hero-copy">
+        <p class="eyebrow">DIGITAL PRODUCTS. BUILT PROPERLY.</p>
+        <h1>We build digital products around how <span>you work.</span></h1>
+        <p class="lead">Apps, management systems and automations designed around your real processes — simple to use, easy to manage and built to grow with you.</p>
         <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary">Get in touch</a>
-          <a href="#products" class="btn btn-ghost">See how it works</a>
-        </div>
-        <div class="hero-meta">
-          <div class="item"><b>2</b>apps, one shared roster</div>
-          <div class="item"><b>Any</b>amateur sport, any age group</div>
-          <div class="item"><b>0</b>spreadsheets required</div>
+          <a href="#work" class="btn btn-primary">View our work <span>→</span></a>
+          <a href="#contact" class="btn btn-secondary">Let's talk</a>
         </div>
       </div>
 
-      <div class="sheet-wrap">
-        <div class="sheet">
-          <div class="sheet-head">
-            <div>
-              <div class="t1">Matchday · Squad sheet</div>
-              <div class="t2">Starting line-up</div>
-            </div>
-            <div class="status">7 confirmed</div>
-          </div>
-          <div class="roster">
-            <div class="row filled"><div class="num">1</div><div class="name-bar"></div><div class="check"></div></div>
-            <div class="row filled"><div class="num">2</div><div class="name-bar"></div><div class="check"></div></div>
-            <div class="row filled"><div class="num">3</div><div class="name-bar"></div><div class="check"></div></div>
-            <div class="row filled"><div class="num">4</div><div class="name-bar"></div><div class="check"></div></div>
-            <div class="row"><div class="num">5</div><div class="name-bar"></div><div class="check"></div></div>
-            <div class="row"><div class="num">6</div><div class="name-bar"></div><div class="check"></div></div>
-          </div>
-          <div class="sheet-foot"><span>Sat · Home</span><span>Printed &amp; signed on matchday</span></div>
-        </div>
-        <div class="phone-badge">
-          <div class="ph-top"><span class="ph-label">Sideline</span><span class="ph-dot"></span></div>
-          <div class="ph-amt">R150</div>
-          <div class="ph-sub">Monthly subs due</div>
-          <div class="ph-btn">Pay now</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CHAOS -->
-  <section class="chaos">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow on-dark">The way it usually goes</p>
-        <h2>Every club is running the same club on the same five tools</h2>
-        <p>None of them talk to each other, and all of them live in someone's head.</p>
-      </div>
-      <div class="chaos-grid">
-        <div class="chaos-cell">
-          <div class="k">Subs</div>
-          <p><span class="strike">A notebook, or a spreadsheet nobody else can find</span><br>Who's paid, who's owing, who's quietly stopped coming.</p>
-        </div>
-        <div class="chaos-cell">
-          <div class="k">Matchday</div>
-          <p><span class="strike">A team sheet filled in by hand, every single week</span><br>Same names, same numbers, retyped from memory.</p>
-        </div>
-        <div class="chaos-cell">
-          <div class="k">Announcements</div>
-          <p><span class="strike">Four WhatsApp groups and a fridge magnet</span><br>Half the club sees it, the other half hears about it later.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PRODUCTS INTRO -->
-  <section id="products">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">One system, two front doors</p>
-        <h2>Clubhouse runs the club. Sideline is the club, in everyone's pocket.</h2>
-        <p>Add a player once and they exist everywhere — on the roster, in the squad picker, on the subs ledger, and in their own account. Nothing gets typed twice.</p>
-      </div>
-
-      <!-- CLUBHOUSE -->
-      <div class="product" id="clubhouse">
-        <div>
-          <span class="product-tag">Clubhouse — for the committee</span>
-          <h3 class="display">The control room for whoever runs the club</h3>
-          <p class="desc">Built for the chairman, treasurer, and coaches — the people who need to know who's paid, who's playing, and who's owed a jersey back.</p>
-          <ul class="feat-list">
-            <li><span class="feat-num">01</span><div class="feat-body"><b>Roster &amp; compliance</b><span>Every player, every age group, and a plain green/amber/red read on who's up to date.</span></div></li>
-            <li><span class="feat-num">02</span><div class="feat-body"><b>Matchday squad builder</b><span>Pick a line-up and subs from the roster, then print an official, ready-to-sign team sheet.</span></div></li>
-            <li><span class="feat-num">03</span><div class="feat-body"><b>Subs &amp; payments ledger</b><span>A running record of who's paid what, without a shared spreadsheet or a shoebox of receipts.</span></div></li>
-            <li><span class="feat-num">04</span><div class="feat-body"><b>Kit &amp; stock</b><span>Track what's in the store room and what's out with players, updated as items are issued and returned.</span></div></li>
-            <li><span class="feat-num">05</span><div class="feat-body"><b>Fixtures &amp; notices</b><span>Import a season's fixtures, edit by hand when plans change, and post one notice instead of four messages.</span></div></li>
-          </ul>
-        </div>
-        <div class="product-visual">
-          <div class="visual-card">
-            <div class="vc-bar"><span></span><span></span><span></span><div class="lbl">clubhouse — squad · subscriptions</div></div>
-            <div class="vc-body">
-              <div class="vc-row"><div class="avatar"></div><div class="bar" style="width:70%"></div><div class="vc-pill pill-green">Paid</div><div class="vc-fig">R150</div></div>
-              <div class="vc-row"><div class="avatar"></div><div class="bar" style="width:55%"></div><div class="vc-pill pill-green">Paid</div><div class="vc-fig">R150</div></div>
-              <div class="vc-row"><div class="avatar"></div><div class="bar" style="width:60%"></div><div class="vc-pill pill-amber">Partial</div><div class="vc-fig">R80</div></div>
-              <div class="vc-row"><div class="avatar"></div><div class="bar" style="width:45%"></div><div class="vc-pill pill-red">Owing</div><div class="vc-fig">R0</div></div>
-              <div class="vc-row"><div class="avatar"></div><div class="bar" style="width:65%"></div><div class="vc-pill pill-green">Paid</div><div class="vc-fig">R150</div></div>
+      <div class="product-stage" aria-label="ATGeneral product preview">
+        <div class="stage-glow"></div>
+        <div class="browser-card">
+          <div class="browser-top"><span></span><span></span><span></span><b>Dashboard</b></div>
+          <div class="browser-body">
+            <aside class="side-nav"><div class="side-logo">AT</div><i class="active"></i><i></i><i></i><i></i><i></i></aside>
+            <div class="dash">
+              <div class="dash-head"><div><small>Overview</small><strong>Good morning</strong></div><div class="avatar">A</div></div>
+              <div class="stats"><div><small>Active</small><b>26</b></div><div><small>Members</small><b>118</b></div><div><small>Revenue</small><b>R12.5k</b></div></div>
+              <div class="chart-card"><div class="chart-title"><span>Activity</span><em>Last 30 days</em></div><div class="chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><svg viewBox="0 0 420 130" preserveAspectRatio="none" aria-hidden="true"><polyline points="0,108 55,94 105,101 160,67 215,77 270,43 320,58 365,24 420,38" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+              <div class="activity"><div class="activity-row"><span class="avatar-sm">J</span><div><b>New member added</b><small>Just now</small></div><strong>View</strong></div><div class="activity-row"><span class="avatar-sm">S</span><div><b>Payment received</b><small>12 min ago</small></div><strong>View</strong></div></div>
             </div>
           </div>
         </div>
-      </div>
-
-      <!-- SIDELINE -->
-      <div class="product b reverse" id="sideline">
-        <div>
-          <span class="product-tag">Sideline — for players &amp; parents</span>
-          <h3 class="display">Everything a player or parent needs, nothing they don't</h3>
-          <p class="desc">A pocket-sized view of the club: what's on this week, what's owed, and what's been announced — no login for the coach required.</p>
-          <ul class="feat-list">
-            <li><span class="feat-num">01</span><div class="feat-body"><b>My fixtures</b><span>What's on, when, and where — filtered to their own team automatically.</span></div></li>
-            <li><span class="feat-num">02</span><div class="feat-body"><b>Pay in a tap</b><span>Settle subs online, no cash envelope or bank reference to remember.</span></div></li>
-            <li><span class="feat-num">03</span><div class="feat-body"><b>Club notices</b><span>Announcements and training changes, targeted to the right team and read once — not retyped into a group chat.</span></div></li>
-            <li><span class="feat-num">04</span><div class="feat-body"><b>One account, every kid</b><span>Parents with more than one child in the club see all of them from a single login.</span></div></li>
-            <li><span class="feat-num">05</span><div class="feat-body"><b>Loyalty</b><span>A simple way to recognise players and volunteers who show up, season after season.</span></div></li>
-          </ul>
-        </div>
-        <div class="product-visual">
-          <div class="phone-frame">
-            <div class="phone-screen">
-              <div class="ps-top">
-                <div class="greet">Good morning</div>
-                <div class="club">Riverside Hockey Club</div>
-              </div>
-              <div class="ps-card">
-                <div class="row"><span class="l">Next fixture</span><span class="r">Sat, 09:00</span></div>
-                <div class="row"><span class="l">Opponent</span><span class="r">Oakwood B</span></div>
-                <div class="row"><span class="l">Subs status</span><span class="r" style="color:#2f7d52">Up to date</span></div>
-              </div>
-              <div class="ps-tiles">
-                <div class="ps-tile"><div class="ic"></div><span>Fixtures</span></div>
-                <div class="ps-tile"><div class="ic"></div><span>Payments</span></div>
-                <div class="ps-tile"><div class="ic"></div><span>Notices</span></div>
-                <div class="ps-tile"><div class="ic"></div><span>Loyalty</span></div>
-              </div>
-            </div>
+        <div class="phone-card">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="phone-head"><small>Good morning</small><b>ATGeneral</b></div>
+            <div class="next-card"><small>UPCOMING</small><b>Saturday · 09:00</b><span>Confirm availability →</span></div>
+            <div class="phone-grid"><div><span>◌</span><small>Profile</small></div><div><span>✓</span><small>Payments</small></div><div><span>▣</span><small>Fixtures</small></div><div><span>↗</span><small>Stats</small></div></div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SYNC -->
-  <section class="sync">
+  <section class="services" id="services">
     <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">Underneath both apps</p>
-        <h2>One roster. Two views of it.</h2>
-        <p>Add a fixture in Clubhouse and it shows up in Sideline within seconds. Mark a payment and the player's status updates everywhere it's shown — no exports, no re-typing.</p>
+      <div class="section-intro center">
+        <p class="eyebrow">WHAT WE BUILD</p>
+        <h2>Digital tools that make work easier.</h2>
+        <p>From practical advice to the tools your team uses every day, we help you simplify the way your business works.</p>
       </div>
-      <div class="sync-diagram">
-        <div class="sync-node">
-          <div class="lbl">Committee</div>
-          <div class="name">Clubhouse</div>
-        </div>
-        <div class="sync-line"></div>
-        <div class="sync-core">
-          <div class="lbl">Shared</div>
-          <div class="name">Roster &amp; fixtures</div>
-        </div>
-        <div class="sync-line"></div>
-        <div class="sync-node">
-          <div class="lbl">Players &amp; parents</div>
-          <div class="name">Sideline</div>
-        </div>
+      <div class="services-grid">
+        <article class="service-card"><div class="service-icon">↔</div><h3>Automations &amp; integrations</h3><p>Connect the tools you already use — sync spreadsheets with booking systems, auto-generate documents and reports, and streamline Slack or email workflows.</p><a href="#contact">Explore automations <span>→</span></a></article>
+        <article class="service-card featured"><div class="service-icon">▣</div><h3>Apps &amp; PWAs</h3><p>Useful, installable experiences that give your customers or team the right information wherever they are.</p><a href="#contact">Explore apps <span>→</span></a></article>
+        <article class="service-card"><div class="service-icon">⌘</div><h3>Management systems</h3><p>Custom tools for managing people, payments, schedules, records, reporting and the work behind the scenes.</p><a href="#contact">Explore systems <span>→</span></a></article>
+        <article class="service-card"><div class="service-icon">?</div><h3>Consultations</h3><p>Not sure what you need? We help you map the problem, identify practical opportunities and work out what is worth building or automating.</p><a href="#contact">Book a consultation <span>→</span></a></article>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <section class="feature" id="work">
+    <div class="wrap feature-card">
+      <div class="feature-copy">
+        <p class="eyebrow">FEATURED PROJECT</p>
+        <h2>Everything in one place.</h2>
+        <p>We built a connected management platform that brings people, payments, schedules, performance and communication together in one simple system.</p>
+        <ul>
+          <li><span>✓</span> People and team management</li>
+          <li><span>✓</span> Payments and subscriptions</li>
+          <li><span>✓</span> Schedules and results</li>
+          <li><span>✓</span> Reporting and performance</li>
+          <li><span>✓</span> Notifications and announcements</li>
+        </ul>
+        <a href="#contact" class="text-link">See what we could build for you <span>→</span></a>
+      </div>
+      <div class="feature-visual">
+        <div class="feature-browser">
+          <div class="browser-top"><span></span><span></span><span></span><b>Management</b></div>
+          <div class="feature-dashboard">
+            <div class="feature-side"><div class="side-logo">AT</div><div class="fside active"></div><div class="fside"></div><div class="fside"></div><div class="fside"></div></div>
+            <div class="feature-main"><div class="feature-toolbar"><div><small>Dashboard</small><b>Overview</b></div><span>Today ▾</span></div><div class="feature-stats"><div><small>Members</small><b>118</b></div><div><small>Payments</small><b>R8,420</b></div><div><small>Events</small><b>12</b></div></div><div class="feature-bottom"><div class="f-chart"><div class="chart-title"><span>Performance</span><em>Monthly</em></div><div class="bars"><i style="height:36%"></i><i style="height:55%"></i><i style="height:44%"></i><i style="height:68%"></i><i style="height:61%"></i><i style="height:83%"></i><i style="height:74%"></i><i style="height:92%"></i></div></div><div class="f-list"><div><span class="avatar-sm">J</span><b>Recent activity</b></div><div><span></span><p>Payment received</p><small>12 min</small></div><div><span></span><p>New member</p><small>34 min</small></div></div></div></div>
+          </div>
+        </div>
+        <div class="floating-note"><strong>Simple by design.</strong><span>Built around the way your team works.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <div class="wrap">
+      <div class="section-intro center"><p class="eyebrow">HOW WE WORK</p><h2>Clear from the start.</h2><p>No complicated process. We understand the problem, build the right solution and make sure you can run with it.</p></div>
+      <div class="process-grid">
+        <article><span class="process-number">01</span><h3>Understand</h3><p>We start with how your business actually works — the people, processes and problems.</p></article>
+        <article><span class="process-number">02</span><h3>Build</h3><p>We turn that understanding into a clean, practical product that solves the right problem.</p></article>
+        <article><span class="process-number">03</span><h3>Launch</h3><p>We test, refine and get everything ready so your team can use it with confidence.</p></article>
+        <article><span class="process-number">04</span><h3>Grow</h3><p>When your needs change, the product can change with you. No starting over from scratch.</p></article>
+      </div>
+    </div>
+  </section>
+
   <section class="contact" id="contact">
-    <div class="wrap contact-grid">
-      <div>
-        <p class="eyebrow on-dark">Talk to us</p>
-        <h2>Tell us about your club</h2>
-        <p>We're setting up new clubs on Clubhouse and Sideline one at a time. Send us a few details and we'll get back to you about getting yours set up.</p>
-        <div class="contact-points">
-          <div class="cp"><div class="dot2"></div><div><b>Any amateur sport</b><span>Football, netball, hockey, rugby, cricket — if you run a roster and a fixture list, it fits.</span></div></div>
-          <div class="cp"><div class="dot2"></div><div><b>Any size committee</b><span>Works for a single chairman doing everything, or a full committee with coaches and treasurers.</span></div></div>
-          <div class="cp"><div class="dot2"></div><div><b>Bring your own season</b><span>Import your existing fixtures and roster — no starting from a blank sheet.</span></div></div>
-        </div>
-        <p class="direct-email">Prefer email? Write to us directly at <a href="mailto:atgeneralinfo@gmail.com">atgeneralinfo@gmail.com</a></p>
-      </div>
-      <div>
-        <div class="form-success" id="formSuccess" role="status">Thanks — we've got your details and will be in touch shortly.</div>
-        <div class="form-error" id="formError" role="alert">Something went wrong sending that. Please try again, or email us directly.</div>
+    <div class="wrap contact-card">
+      <div class="contact-copy"><p class="eyebrow">LET'S BUILD SOMETHING</p><h2>Have an idea? Let's make it useful.</h2><p>Tell us what you're trying to improve, replace or build from scratch. We'll help you work out what makes sense.</p><a class="email-link" href="mailto:atgeneralinfo@gmail.com">atgeneralinfo@gmail.com <span>↗</span></a></div>
+      <div class="contact-form-wrap">
+        <div class="form-success" id="formSuccess" role="status">Thanks — we've got your details and will be in touch.</div>
+        <div class="form-error" id="formError" role="alert">Something went wrong. Please try again or email us directly.</div>
         <form class="contact-form" id="contactForm">
-          <div class="form-row">
-            <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" required /></div>
-            <div class="field"><label for="club">Club name</label><input id="club" name="club" type="text" required /></div>
-          </div>
-          <div class="form-row">
-            <div class="field"><label for="sport">Sport</label><input id="sport" name="sport" type="text" placeholder="e.g. Netball" /></div>
-            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required /></div>
-          </div>
-          <div class="field"><label for="message">What are you hoping to sort out?</label><textarea id="message" name="message" placeholder="Subs tracking, matchday sheets, a players' app — whatever's the biggest headache right now."></textarea></div>
-          <!-- honeypot field for basic bot filtering -->
+          <div class="form-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" required placeholder="Your name" /></div><div class="field"><label for="org">Company / organisation</label><input id="org" name="org" type="text" required placeholder="Company name" /></div></div>
+          <div class="form-row"><div class="field"><label for="project">What do you need?</label><select id="project" name="project"><option value="">Select one</option><option>Automations &amp; integrations</option><option>App / PWA</option><option>Management system</option><option>Consultation</option><option>Not sure yet</option></select></div><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="you@example.com" /></div></div>
+          <div class="field"><label for="message">Tell us a little about it</label><textarea id="message" name="message" placeholder="What are you trying to solve or build?"></textarea></div>
           <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
-          <button type="submit" class="btn btn-primary" id="submitBtn">Send</button>
-          <p class="form-note">Goes straight to our inbox — usually a reply within a day or two.</p>
+          <button type="submit" class="btn btn-primary" id="submitBtn">Send enquiry <span>→</span></button>
+          <p class="form-note">Usually a reply within a day or two.</p>
         </form>
       </div>
     </div>
   </section>
-
 </main>
 
 <footer>
-  <div class="wrap foot-inner">
-    <a href="#top" class="logo">atgeneral<span class="dot">.</span></a>
-    <div class="foot-links">
-      <a href="#products">Product</a>
-      <a href="#clubhouse">Clubhouse</a>
-      <a href="#sideline">Sideline</a>
-      <a href="#contact">Contact</a>
-    </div>
-    <div class="foot-copy">© <span id="year"></span> atgeneral</div>
-  </div>
+  <div class="wrap foot-inner"><a href="#top" class="logo">ATGeneral<span>›</span></a><div class="foot-links"><a href="#services">Services</a><a href="#work">Work</a><a href="#process">Process</a><a href="#contact">Contact</a></div><div class="foot-copy">© <span id="year"></span> ATGeneral</div></div>
 </footer>
-
 <script src="script.js"></script>
-<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
